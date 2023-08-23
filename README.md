@@ -24,8 +24,16 @@ git clone https://github.com/mercurystudio99/custom_calendar
 cd custom_calendar
 # Install dependencies
 npm install
+# Install plugins
+npm install sqlite3 --save
+npm install bootstrap --save
+npm install --save @popperjs/core
+npm install electron-pdf-window
+npm install node-notifier
 # Run the app
 npm start
+# Build the app
+npm run build
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
